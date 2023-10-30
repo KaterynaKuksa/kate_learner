@@ -27,10 +27,20 @@ console.log(constVariable);
 
 //6) Display the sum of 15 + 30, using two variables: x and y.
 
+var x = 15
+var y = 30
+var c = x + y 
+console.log(c)
+
 //7) Create variable named myUndefined and set its value equal to undefined
+
+var myUndefined = undefined
+console.log(myUndefined)
 
 //8) Create variable named dividedNumber and set its value equal myAge divided by 2
 // * NOTE: you should use myAge variable here
+
+console.log( myAge / 2 )
 
 //9) Create variable named multipleNumber and set its value equal myAge multiply by 2
 
