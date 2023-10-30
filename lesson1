@@ -6,6 +6,9 @@ console.log (earth)
 
 //2) Create a variable to store the name of the current site visitor.
 
+var namesite = 'lesson1'
+console.log (namesite)
+
 //3) Create "var" variable named myAge and set its value equal to 30
 
 //4) Create "let" variable named myName and set its value equal to any name
