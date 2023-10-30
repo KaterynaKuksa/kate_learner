@@ -11,9 +11,19 @@ console.log (namesite)
 
 //3) Create "var" variable named myAge and set its value equal to 30
 
+var myAge = 30
+console.log (myAge)
+
 //4) Create "let" variable named myName and set its value equal to any name
 
+let myName = "Kate"
+console.log (myName)
+
 //5) Create "const" variable named myBool and set its value equal to false
+
+const constVariable = false;
+console.log(constVariable);
+
 
 //6) Display the sum of 15 + 30, using two variables: x and y.
 
