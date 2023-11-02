@@ -88,4 +88,4 @@ console.log(false && (false || true))
 
 console.log((+null == false) < 1 ** 5)
 
-//false, бо 1 ** 5 = 1, а (+null == false) = тру, а тру = 1, тому не буде  1<1
+//false, бо 1 ** 5 = 1, а (+null == false) = тру, а тру = 1, тому не буде  1<1 () false )
