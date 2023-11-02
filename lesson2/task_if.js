@@ -5,11 +5,18 @@
 If the cat weighs less than 5 kg, then the cat is small and still needs to be fed, 
 if it weighs more than 5, then the cat is very fluffy and needs to be combed :) */
 
+let cat = 4 // real parameters of my cat
+if (cat < 5) {console.log ("Пригостити рибкою")} 
+else if (cat > 5) {console.log ("Вичесати котика")} 
 
 /* Task - 2
 Write an if condition to check if the age value is NOT between 18 and 50 inclusive, if it is not, then hire */
 
-
+let age = 19;
+if (age <= 18 && age >= 50) {
+    console.log("you got hired")
+}
+else { console.log("Look for another job, loser") }
 
 /* Task - 3
 Write a program for checking grades.
@@ -17,12 +24,41 @@ If the grade is A and B, the student has passed the exam
 If C and D - we send them for a retake
 If E - expulsion. */
 
+let grade = "D";
+if (grade == "A" ) {
+    console.log("passed the exam")
+}
+else if (grade == "B") {
+    console.log("passed the exam")
+}
+else if (grade == "C") {
+    console.log("we send them for a retake")
+}
+else if (grade == "D") {
+    console.log("we send them for a retake")
+}
+else if (grade == "E") {
+    console.log(expulsion)
+}
+
+
+
 
 
 /* Task - 4
  Write a small program "Guess the number", where you need to enter a number from the console and tell the user whether he entered less or more or guessed the number. */
 
+ // number 7
 
+var number = 75;
+
+if (number == 7) {
+    console.log("Число " + number + " - вірне")
+} else if (number < 7) {
+    console.log("Число " + number + " - ви обрали менше число ")
+} else if (number > 7) {
+    console.log("Число " + number + " - ви обрали більше число ")
+}
 
  /* Task - 5
 Rewrite the if statement using the conditional operator '?
