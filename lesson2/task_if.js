@@ -63,30 +63,25 @@ if (number == 7) {
  // Task - 5
 //Rewrite the if statement using the conditional operator '?
 
-var height = 138 
 
-if (height < 140) {
-  console.log("Заборонено!");
-} else {
-    console.log("Можете їхати");
-}
- 
+var height = 156;
+var message = height < 140 ? "Заборонено!" : "Можете їхати";
+console.log(message);
 
 
 /* Task - 6
 
-Rewrite if..else using several ternary operators '? 
+Rewrite if..else using several ternary operators '? */
 
-if (height < 50) 
-{
-     console.log("Forbidden to use attraction"); 
-    } else if (height >= 50 && height < 80) {
-         console.log("Permit - attraction №1");
-         } else if (height >= 80 && height < 120) {
-             console.log("Permit - attraction №1 or №2"); 
-            } else { 
-                console.log("Permit - All"); }
-*/
+var height = 138;
+
+var message = height < 50 ? "Forbidden to use attraction" :
+height >= 50 && height < 80 ? "Permit - attraction №1" :
+height >= 80 && height < 120 ? "Permit - attraction №1 or №2" :
+"Permit - All";
+
+console.log(message);
+
 
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
