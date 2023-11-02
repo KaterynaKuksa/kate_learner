@@ -60,16 +60,17 @@ if (number == 7) {
     console.log("Число " + number + " - ви обрали більше число ")
 }
 
- /* Task - 5
-Rewrite the if statement using the conditional operator '?
+ // Task - 5
+//Rewrite the if statement using the conditional operator '?
+
+var height = 138 
 
 if (height < 140) {
-  console.log("Заборонено на атракціон");
+  console.log("Заборонено!");
 } else {
-    console.log("Проходьте, будь ласка!");
+    console.log("Можете їхати");
 }
- */
-
+ 
 
 
 /* Task - 6
