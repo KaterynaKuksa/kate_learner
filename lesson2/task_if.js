@@ -25,16 +25,11 @@ If C and D - we send them for a retake
 If E - expulsion. */
 
 let grade = "D";
-if (grade == "A" ) {
+if (grade == "A" || grade == "B") {
     console.log("passed the exam")
 }
-else if (grade == "B") {
-    console.log("passed the exam")
-}
-else if (grade == "C") {
-    console.log("we send them for a retake")
-}
-else if (grade == "D") {
+
+else if (grade == "C" || grade == "D") {
     console.log("we send them for a retake")
 }
 else if (grade == "E") {
@@ -91,46 +86,86 @@ console.log(message);
 /* Task - 7
  Create a program that will print the day of the week according to the day number. */
 
+var day = 8
+switch (day) {
+    case 1:
+        console.log("Понеділок");
+        break; 
+    case 2:
+        console.log("Вівторок");
+        break; 
+    case 3:
+        console.log("Середа");
+        break; 
+    case 4:
+        console.log("Четверг");
+        break; 
+    case 5:
+         console.log("П'ятниця");
+         break; 
+    case 6:
+         console.log("Субота");
+         break; 
+    case 7:
+         console.log("Неділя");
+         break; 
+    default:
+        console.log("Такий день ще не створили")
+            
+}
+
+
+
+
 /* Task - 8
  Make a program that will display the time of year a particular month number belongs to (for example, I enter "1" and it tells me that it is winter, I enter "5" - spring, etc.) */
-
+ var month = 14
+ switch (true) {
+     case (month == 1 || month == 2 || month == 12) :
+         console.log("Winter");
+         break; 
+     case (month == 4 || month == 5 || month == 3) :
+         console.log("Spring");
+         break; 
+     case (month == 6 || month == 7 || month == 8) :
+         console.log("Summer");
+         break;
+    case (month == 9 || month == 10 || month == 11) :
+         console.log("Autumn");
+         break;
+    default:
+        console.log("The year has only 12 month ")
+        }
  /* Task - 9
- Rewrite the "switch" into an "if"
+ Rewrite the "switch" into an "if" */
+
+ var browser = 'thtfh'
+ if (browser == 'Edge' ) {
+    console.log("You've got the Edge!")
+ }
+ else if (browser === "Chrome" || browser === "Firefox" || browser === "Safari" || browser === "Opera") {
+    console.log('Okay we support these browsers too')
+ }
+else {console.log('We hope that this page looks ok!')}
+
  
- switch (browser) {
-  case 'Edge':
-    console.log( "You've got the Edge!" );
-    break;
+ 
 
-  case 'Chrome':
-  case 'Firefox':
-  case 'Safari':
-  case 'Opera':
-    alert( 'Okay we support these browsers too' );
-    break;
+// Task - 10
 
-  default:
-    console.log( 'We hope that this page looks ok!' );
+
+var age1 = -24;
+switch (true) {
+    case (age1 < 16):
+        console.log("We cant hire u!");
+        break;
+    case (age1 >= 18):
+        console.log( 'U can take full time job' );
+        break;
+    case (age1 == 16 || age1 == 17):
+        console.log( 'U can take part time job' );
+        break;
 }
- */
-
-/* Task - 10
-Rewrite "if" into "switch" 
-
-let age = 16;
-if (age < 16) {
-    console.log( 'We cant hire u!' );
-}
-if (age >= 18) {
-  console.log( 'U can take full time job' );
-}
-
-if (age == 16 || a == 17) {
-  console.log( 'U can take part time job' );
-}
-*/
-
-
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
