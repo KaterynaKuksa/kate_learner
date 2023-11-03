@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prompt Example</title>
+  <script>
+
+    var username = prompt("Enter your username:");
+
+    if (username === "Admin") {
+      var password = prompt("Enter your password:");
+
+      if (password === "TheMaster") {
+        console.log("Welcome!");
+      } else if (password === "" || password === null) {
+        console.log("Canceled");
+      } else {
+        console.log("Wrong password");
+      }
+    } else if (username === "" || username === null) {
+      console.log("Canceled");
+    } else {
+      console.log("I don't know you");
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
