@@ -124,4 +124,4 @@ while (initialBathState < bathCapacity) {
   bucketsneeds++;
 
 }
-console.log ("Потрібно відер:" + bucketsneeds)
+console.log ("Потрібно відер: " + bucketsneeds)
