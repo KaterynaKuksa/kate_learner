@@ -1,6 +1,10 @@
 /*  Task - 1
     Напишіть регулярний вираз, який допоможе знайти принаймні шість символів і не містяти літери А (великої або малої)
 */
+var text = "Hello, this task without A, don't sure that it's good";
+var regex = /[^Aa]{6,}/g;
+var result = text.match(regex);
+console.log(result);
 
 /*  Task - 2
 
@@ -10,6 +14,11 @@
  
 */
 
+var text = 'cat car can';
+var regex = /\b(ca[tn])\b/g;
+var result = text.match(regex);
+console.log(result);
+
 /*  Task - 3
 
     text = 'I would like 8 cups of coffee, please.';
@@ -17,6 +26,11 @@
     Напишіть regex, котрий знайде кількість чашок кофе.
  
 */
+
+var text = 'I would like 8 cups of coffee, please.';
+var regex = /\b\d+\s*cups?\b/g;
+var result = text.match(regex);
+console.log(result);
 
 /*  Task - 4
 
@@ -26,6 +40,11 @@
     Напишіть regex, котрий знайде ВСІ слова котрі починаются на h
  
 */
+
+var text = 'Hello people of 1974. I come from the future. In 2014 we have laser guns, hover boards and live on the moon!';
+var regex = /\bh\w+\b/g;
+var result = text.match(regex);
+console.log(result);
 
 
 /*  Task - 5 (Not required)
@@ -37,6 +56,11 @@
  
 */
 
+var text = 'Hello people of 1974. I come from the future. In 2014 we have laser guns, hover boards and live on the moon!';
+var regex = /\b\w{4,6}\b/g;
+var result = text.match(regex);
+console.log(result);
+
 
 /*  Task - 6 (Not required)
 
@@ -47,6 +71,11 @@
  
 */
 
+var text = 'Hello people of 1974. I come from the future. In 2014 we have laser guns, hover boards and live on the moon!';
+var regex = /\b\w{6,}\b/g;
+var result = text.match(regex);
+console.log(result);
+
 /*  Task - 7 (Not required)
 
     var text = 'Hello people of 1974. I come from the future. In 2014 we have laser guns, hover boards and live on the moon!';
@@ -55,6 +84,11 @@
     Напишіть regex, котрий знайде ВСІ слова довжина котрих 6 смиволів
  
 */
+
+var text = 'Hello people of 1974. I come from the future. In 2014 we have laser guns, hover boards and live on the moon!';
+var regex = /\b\w{6}\b/g;
+var result = text.match(regex);
+console.log(result);
 
 /*  Task - 8. Paranoya (Not required)
     В нас є масив обєктів в яких міститься email.
@@ -110,3 +144,5 @@
     var name = 'John Smith';
 
 */
+var name ='Smith John'
+console.log(name)  // Sorry, I am so tired 
